@@ -49,44 +49,29 @@
         </q-card-section>
         <q-card-section class="q-pt-none"> 
         </q-card-section>
-      </q-card> 
-       
-      <div class="text-h2 text-weight-regular absolute-bottom" align="center" style="margin-top:40px">EXPLORE</div>
-      <div class="q-pa-md row items-center justify-center q-gutter-md no-wrap">
-        <q-card class="my-card">
-      <img src="https://cdn.quasar.dev/img/mountains.jpg">
-
-      <q-card-actions align="right">
-        <q-btn flat round color="red" icon="favorite" />
-        <q-btn flat round color="teal" icon="bookmark" />
-        <q-btn flat round color="primary" icon="share" />
-      </q-card-actions>
-    </q-card>
-
+      </q-card>  
+      </div> 
+  </q-page>
+  <q-page class="row justify-center">
+    <div class="text-h2 text-weight-regular text-center absolute" align="center" style="margin-top:25px">EXPLORE</div>
+    <div class="q-pa-md row items-center justify-center q-gutter-md no-wrap" style="margin-top:50px" > 
     <q-card class="my-card">
-      <img src="https://cdn.quasar.dev/img/mountains.jpg">
+      <img src="../assets/imagens/foto05.png">
+      <q-card-section>
+          <div class="text-h6">Love Locks</div>
+          <div class="text-body2 text-weight-light text-justify" style="margin-top:5px">The Love Lock Bridge originated from tales about locking the padlocks and 
+            throwing away the keys symbolizing eternal love. 
+            But… the love locks do not limit to couples. 
+            Families and friends lock their love for each other too! </div>
+        </q-card-section>
 
       <q-card-actions align="right">
-        <q-btn flat round color="red" icon="favorite" />
-        <q-btn flat round color="teal" icon="bookmark" />
-        <q-btn flat round color="primary" icon="share" />
+        <q-btn flat round color="red-9" icon="favorite" />
+        <q-btn flat round color="teal-3" icon="bookmark" />
+        <q-btn flat round color="grey-10" icon="share" />
       </q-card-actions>
     </q-card>
-
-    <q-card class="my-card">
-      <img src="https://cdn.quasar.dev/img/mountains.jpg">
-
-      <q-card-actions align="right">
-        <q-btn flat round color="red" icon="favorite" />
-        <q-btn flat round color="teal" icon="bookmark" />
-        <q-btn flat round color="primary" icon="share" />
-      </q-card-actions>
-    </q-card>
-    </div> 
-
-      </div>
-          
-    
+    </div>
   </q-page>
 </template>
 
