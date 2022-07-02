@@ -52,8 +52,9 @@
       </q-card>  
       </div> 
   </q-page>
+
   <q-page class="row justify-center">
-    <div class="text-h2 text-weight-regular text-center absolute" align="center" style="margin-top:25px">EXPLORE</div>
+    <div class="text-h2 text-weight-regular text-center absolute" align="center" style="margin-top:10px">EXPLORE</div>
     <div class="q-pa-md row items-center justify-center q-gutter-md no-wrap" style="margin-top:50px" > 
     <q-card class="my-card">
       <img src="../assets/imagens/foto05.png">
@@ -63,6 +64,40 @@
             throwing away the keys symbolizing eternal love. 
             But… the love locks do not limit to couples. 
             Families and friends lock their love for each other too! </div>
+        </q-card-section>
+
+      <q-card-actions align="right">
+        <q-btn flat round color="red-9" icon="favorite" />
+        <q-btn flat round color="teal-3" icon="bookmark" />
+        <q-btn flat round color="grey-10" icon="share" />
+      </q-card-actions>
+    </q-card>
+
+    <q-card class="my-card">
+      <img src="../assets/imagens/teddybear.jpg">
+      <q-card-section>
+          <div class="text-h6">Teddy Bear Museum</div>
+          <div class="text-body2 text-weight-light text-justify" style="margin-top:5px ">The museum in N Seoul Tower narrates with teddy bears the past, present, 
+            and future of Seoul. There is a history gallery and a special gallery where a teddy bear is dressed as a king of Joseon Dynasty 
+            and also shows a wide variety of early images of Seoul in the old days.</div>
+        </q-card-section>
+
+      <q-card-actions align="right">
+        <q-btn flat round color="red-9" icon="favorite" />
+        <q-btn flat round color="teal-3" icon="bookmark" />
+        <q-btn flat round color="grey-10" icon="share" />
+      </q-card-actions>
+    </q-card>
+
+    <q-card class="my-card">
+      <img src="../assets/imagens/ngrill.jpg">
+      <q-card-section>
+          <div class="text-h6">N Grill French Restaurant</div>
+          <div class="text-body2 text-weight-light text-justify" style="margin-top:5px ">High class French cuisine directly presented by n.Grill chef!
+            n.Grill, a French restaurant, is located in the highest point of the N SEOUL TOWER
+            boasting the best view.
+            Watching jewel-like night views, you can enjoy creative French courses presented
+            by n.Grill chef. It should be unforgettable memories for you and your love.</div>
         </q-card-section>
 
       <q-card-actions align="right">
@@ -88,5 +123,6 @@ export default defineComponent({
 <style lang="sass" scoped>
 .my-card
   width: 100%
-  max-width: 230px
+  max-width: 300px
+  margin-top:35px
 </style>
