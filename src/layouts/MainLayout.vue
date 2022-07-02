@@ -26,6 +26,11 @@
       <q-carousel-slide :name="4" img-src="../assets/imagens/foto04.jpg" />
     </q-carousel>
   </div>
+  <q-footer reveal elevated>
+        <q-toolbar>
+          <q-toolbar-title class="text-center text-weight-light text-h6">Desenvolvido por: @isagusmao97</q-toolbar-title>
+        </q-toolbar>
+      </q-footer>
     <q-page-container>
       <router-view />
     </q-page-container>
