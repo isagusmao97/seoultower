@@ -1,7 +1,7 @@
 <template>
   <q-page class="row justify-center"> 
     <div class="text-h2 text-weight-regular text-center absolute" align="center" style="margin-top:25px">ABOUT</div>
-    <div class="q-pa-md row items-center justify-center q-gutter-md no-wrap" style="margin-top:35px" > 
+    <div class="q-pa-md row justify-center q-gutter-md no-wrap" style="margin-top: 180px"> 
       <q-card class="my-card">
         <img src="../assets/imagens/nseoultower.jpg">
 
@@ -56,24 +56,25 @@
   <q-page class="row justify-center">
     <div class="text-h2 text-weight-regular text-center absolute" align="center" style="margin-top:10px">EXPLORE</div>
     <div class="q-pa-md row items-center justify-center q-gutter-md no-wrap" style="margin-top:50px" > 
-    <q-card class="my-card">
-      <img src="../assets/imagens/foto05.png">
+    <q-card class="my-card01">
+      <img src="../assets/imagens/foto05.jpg">
       <q-card-section>
           <div class="text-h6">Love Locks</div>
           <div class="text-body2 text-weight-light text-justify" style="margin-top:5px">The Love Lock Bridge originated from tales about locking the padlocks and 
             throwing away the keys symbolizing eternal love. 
             But… the love locks do not limit to couples. 
-            Families and friends lock their love for each other too! </div>
+            Families and friends lock their love for each other too!
+            From the Namsan Tower, you can view the whole city from the high skyscrapers! </div>
         </q-card-section>
 
-      <q-card-actions align="right">
+      <q-card-actions align="bottom">
         <q-btn flat round color="red-9" icon="favorite" />
         <q-btn flat round color="teal-3" icon="bookmark" />
         <q-btn flat round color="grey-10" icon="share" />
       </q-card-actions>
     </q-card>
 
-    <q-card class="my-card">
+    <q-card class="my-card01">
       <img src="../assets/imagens/teddybear.jpg">
       <q-card-section>
           <div class="text-h6">Teddy Bear Museum</div>
@@ -82,14 +83,14 @@
             and also shows a wide variety of early images of Seoul in the old days.</div>
         </q-card-section>
 
-      <q-card-actions align="right">
+      <q-card-actions align="bottom">
         <q-btn flat round color="red-9" icon="favorite" />
         <q-btn flat round color="teal-3" icon="bookmark" />
         <q-btn flat round color="grey-10" icon="share" />
       </q-card-actions>
     </q-card>
 
-    <q-card class="my-card">
+    <q-card class="my-card01">
       <img src="../assets/imagens/ngrill.jpg">
       <q-card-section>
           <div class="text-h6">N Grill French Restaurant</div>
@@ -100,7 +101,7 @@
             by n.Grill chef. It should be unforgettable memories for you and your love.</div>
         </q-card-section>
 
-      <q-card-actions align="right">
+      <q-card-actions align="bottom">
         <q-btn flat round color="red-9" icon="favorite" />
         <q-btn flat round color="teal-3" icon="bookmark" />
         <q-btn flat round color="grey-10" icon="share" />
@@ -124,5 +125,14 @@ export default defineComponent({
 .my-card
   width: 100%
   max-width: 300px
+  height:400px
+  margin-top:35px
+</style>
+
+<style lang="sass" scoped>
+.my-card01
+  width: 100%
+  max-width: 300px
+  height:550px
   margin-top:35px
 </style>

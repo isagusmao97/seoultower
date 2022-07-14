@@ -7,9 +7,10 @@
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
-    <div class="q-pa-md"  >
+    <div class="q-pa-none" style="width=100%">
     <q-carousel
       animated
+      height="600px"
       v-model="slide"
       navigation
       infinite
