@@ -1,6 +1,6 @@
 <template>
   <q-page class="row justify-center"> 
-    <div class="text-h2 text-weight-regular text-center absolute" align="center" style="margin-top:25px">ABOUT</div>
+    <div class="text-h2 text-weight-regular text-center absolute" align="center" style="margin-top:60px">ABOUT</div>
     <div class="q-pa-md row justify-center q-gutter-md no-wrap" style="margin-top: 180px"> 
       <q-card class="my-card">
         <img src="../assets/imagens/nseoultower.jpg">
@@ -64,10 +64,10 @@
             throwing away the keys symbolizing eternal love. 
             But… the love locks do not limit to couples. 
             Families and friends lock their love for each other too!
-            From the Namsan Tower, you can view the whole city from the high skyscrapers! </div>
+             </div>
         </q-card-section>
 
-      <q-card-actions align="bottom">
+      <q-card-actions align="center">
         <q-btn flat round color="red-9" icon="favorite" />
         <q-btn flat round color="teal-3" icon="bookmark" />
         <q-btn flat round color="grey-10" icon="share" />
@@ -83,8 +83,8 @@
             and also shows a wide variety of early images of Seoul in the old days.</div>
         </q-card-section>
 
-      <q-card-actions align="bottom">
-        <q-btn flat round color="red-9" icon="favorite" />
+      <q-card-actions align="center">
+        <q-btn flat round color="red-9" icon="favorite"/>
         <q-btn flat round color="teal-3" icon="bookmark" />
         <q-btn flat round color="grey-10" icon="share" />
       </q-card-actions>
@@ -101,7 +101,7 @@
             by n.Grill chef. It should be unforgettable memories for you and your love.</div>
         </q-card-section>
 
-      <q-card-actions align="bottom">
+      <q-card-actions align="center">
         <q-btn flat round color="red-9" icon="favorite" />
         <q-btn flat round color="teal-3" icon="bookmark" />
         <q-btn flat round color="grey-10" icon="share" />
@@ -113,6 +113,7 @@
 
 <script>
 import { defineComponent } from 'vue'
+
 
 export default defineComponent({
   name: 'IndexPage'
