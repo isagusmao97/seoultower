@@ -54,8 +54,8 @@
   </q-page>
 
   <q-page class="row justify-center">
-    <div class="text-h2 text-weight-regular text-center absolute" align="center" style="margin-top:10px">EXPLORE</div>
-    <div class="q-pa-md row items-center justify-center q-gutter-md no-wrap" style="margin-top:50px" > 
+    <div class="text-h2 text-weight-regular text-center absolute" align="center" style="margin-top:60px">EXPLORE</div>
+    <div class="q-pa-md row items-center justify-center q-gutter-md no-wrap" style="margin-top:180px" > 
     <q-card class="my-card01">
       <img src="../assets/imagens/foto05.jpg">
       <q-card-section>
